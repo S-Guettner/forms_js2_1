@@ -15,6 +15,6 @@ let resetHeadline = () =>{
 /* toggle */
 let change = document.getElementById("toggle");
 
-change.addEventListener('click', function (){
+change.addEventListener('click', () => {
     headline.classList.toggle("newHeadlineStyle")
 });

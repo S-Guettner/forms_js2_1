@@ -6,3 +6,15 @@ let changeHeadline = () =>{
 let resetHeadline = () =>{
     headline.classList.remove("newHeadlineStyle")
 };
+
+
+
+
+
+
+/* toggle */
+let change = document.getElementById("toggle");
+
+change.addEventListener('click', function (){
+    headline.classList.toggle("newHeadlineStyle")
+});
